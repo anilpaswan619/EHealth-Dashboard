@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap"
     />
     <link rel="icon" type="image/x-icon" href="assets/images/check-up.png" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
     <div class="container-fluid">
@@ -29,7 +29,7 @@
           <div class="container-fluid p-2 p-lg-0">
             <a class="navbar-brand d-flex align-items-center" href="index.html">
               <img
-                src="assets/images/check-up.png"
+                src="../assets/images/check-up.png"
                 alt="Logo"
                 width="40"
                 height="40"
@@ -56,34 +56,25 @@
             >
               <ul class="navbar-nav mx-lg-5">
                 <li class="nav-item">
-                  <a
-                    class="nav-link active rounded"
-                    aria-current="page"
-                    href="index.html"
-                    >Home</a
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#" aria-current="page"
+                    >About Us</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/about-us.html">About Us</a>
+                  <a class="nav-link" href="./faqs.html">FAQs</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/faqs.html">FAQs</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/support.html">Support</a>
+                  <a class="nav-link" href="./support.html">Support</a>
                 </li>
               </ul>
               <form class="d-flex my-3 my-lg-0 mx-lg-4">
-                <a
-                  class="btn btn-outline-primary me-4"
-                  href="./pages/login.html"
-                >
+                <button class="btn btn-outline-primary me-4" type="button">
                   Login
-                </a>
-
-                <a class="btn btn-primary me-4" href="./pages/sign-up.html">
-                  Sign-up
-                </a>
+                </button>
+                <button class="btn btn-primary" type="button">Sign-up</button>
               </form>
             </div>
           </div>
@@ -98,84 +89,35 @@
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-12 col-sm-12 col-lg-6">
             <img
-              src="assets/images/home-img.jpg"
+              src="../assets/images/about-us.jpg"
               class="d-block mx-lg-auto img-fluid rounded shadow-sm"
-              alt="image"
+              alt="Image"
               width="700"
               height="500"
               loading="lazy"
             />
           </div>
           <div class="col-lg-6 mt-0">
-            <h1 class="display-5 fw-bold text-primary lh-1 mb-3 mt-5 mt-lg-0">
-              Chronic Disease Monitoring Dashboard
+            <h1 class="fw-bold text-primary lh-1 mb-3 mt-5 mt-lg-0">
+              About Chronic Care
             </h1>
             <p class="lead py-4">
-              A Health Management Dashboard for Chronic Disease Monitoring and
-              Support. The Health Management Dashboard (HMD) tailored for
-              chronic disease management. The primary objective is to enhance
-              the monitoring and support of patients with chronic conditions
-              through a comprehensive digital platform.
+              Chronic Care is a Health Management Dashboard for Chronic Disease
+              Monitoring and Support. We aim to enhance the monitoring and
+              support of patients with chronic conditions through a
+              comprehensive digital platform. Our dedicated team of healthcare
+              professionals and technologists are committed to improving chronic
+              disease management.
+              <br />
+              <br />
+              A Health Management Dashboard (HMD) tailored for chronic disease
+              management. The primary objective is to enhance the monitoring and
+              support of patients with chronic conditions through a
+              comprehensive digital platform. The advent of digital health
+              technologies, such as health management dashboards, offers
+              promising solutions for improving chronic disease management.
             </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a class="btn btn-primary me-4" href="./pages/login.html">
-                Start Now
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Features -->
-      <div
-        class="container py-lg-5 my-5 p-5 hero-img-container shadow-sm rounded-bottom-5"
-      >
-        <div class="row">
-          <div class="col-lg-4 p-4 bg-white rounded border rounded-3 shadow-sm">
-            <img
-              class="bd-placeholder-img rounded-circle mx-auto d-block"
-              width="200"
-              height="200"
-              src="assets/images/mission.jpg"
-              role="img"
-              aria-label="Placeholder"
-            />
-            <h2 class="fw-bold text-center mt-3 text-primary">Our Mission</h2>
-            <p class="text-center">
-              Our mission is to provide a comprehensive Health Management
-              Dashboard for Chronic Disease Monitoring and Support.
-            </p>
-          </div>
-
-          <div class="col-lg-4 p-4 bg-white rounded border rounded-3 shadow-sm">
-            <img
-              class="bd-placeholder-img rounded-circle mx-auto d-block"
-              width="200"
-              height="200"
-              src="assets/images/vision.jpg"
-              role="img"
-              aria-label="Placeholder"
-            />
-            <h2 class="fw-bold text-center mt-3 text-primary">Our Vision</h2>
-            <p class="text-center">
-              Our vision is to revolutionize chronic disease management through
-              our Health Management Dashboard.
-            </p>
-          </div>
-
-          <div class="col-lg-4 p-4 bg-white rounded border rounded-3 shadow-sm">
-            <img
-              class="bd-placeholder-img rounded-circle mx-auto d-block"
-              width="200"
-              height="200"
-              src="assets/images/who.jpg"
-              role="img"
-              aria-label="Placeholder"
-            />
-            <h2 class="fw-bold text-center mt-3 text-primary">Who We Are</h2>
-            <p class="text-center">
-              We are a dedicated team of healthcare professionals and
-              technologists committed to improving chronic disease management.
-            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start"></div>
           </div>
         </div>
       </div>
@@ -195,7 +137,7 @@
               class="mb-3 me-2 mb-md-0 text-decoration-none lh-1"
             >
               <img
-                src="assets/images/check-up.png"
+                src="../assets/images/check-up.png"
                 alt="Logo"
                 width="35"
                 height="35"
