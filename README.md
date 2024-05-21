@@ -1,0 +1,1 @@
+Chronic Care is a Health Management Dashboard for Chronic Disease Monitoring and Support. We aim to enhance the monitoring and support of patients with chronic conditions through a comprehensive digital platform. Our dedicated team of healthcare professionals and technologists are committed to improving chronic disease management.
